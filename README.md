@@ -8,23 +8,27 @@ Latest progress on branch [development](https://github.com/SonkeWohler/CreateCod
 
 ## _**WIP**_ Functionality
 
+Where `_` is the cursor location.
+
 By default `codeCompleteLeader` is set to your `<Leader>`, which vim sets to `\` by default. I'll use that for any demonstrations.
 
-### _**WIP**_ Autoclose {}
+### Autoclose {}
 
 In insert mode:
 
 ```
-\{
+{_
 ```
 
-Creates (where `_` is the cursor location):
+Creates: 
 
 ```
 {
   _
 }
 ```
+
+If you only want to write `{` without closing it use `\{` instead.
 
 ### _**WIP**_ Generate Simple Code Blocks
 
